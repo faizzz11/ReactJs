@@ -79,8 +79,8 @@ function App() {
    <h1 className="font-bold text-center text-2xl">ZenTask - Your Daily Schedule Manager</h1>
     <div className="addTodo my-5 flex flex-col gap-4 items-center">
       <h3 className='text-lg font-bold '>Add a Todo</h3>
-      <input onChange={handleChange} value={todo} className='bg-white text-black w-full rounded-xl p-3' type="text" placeholder='eg:- Watch Reels' />
-      <button onClick={handleAdd} disabled={todo.length<2} className='btn bg-orange-600 hover:bg-orange-800 disabled:bg-orange-600 p-3 py-1 rounded-md font-bold'>Save</button>
+      <input onChange={handleChange} value={todo} className='bg-white text-black w-full rounded-xl p-3' type="text" placeholder='eg:- Watch Reels'  onKeyDown={(e) => e.key === "Enter" && todo.length >= 2 && handleAdd()} />
+      <button onClick={handleAdd} disabled={todo.length<2} className='SaveBtn bg-orange-600 hover:bg-orange-800 disabled:bg-orange-600 p-3 py-1 rounded-md font-bold'>Save</button>
       </div>
       <input className='my-4' id='show' onChange={ToggleFinished} type="checkbox" checked={ShowFinished} /> 
          <label className='mx-2' htmlFor="show">Show Finished</label> 
