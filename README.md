@@ -1,12 +1,12 @@
-# 🚀 My React.js & Next.js Journey
+# 🚀 My React.js Journey
 
 Hello, world! 🌎
 
-I'm currently diving deep into **React.js** and **Next.js**, guided by the amazing tutorials from **Code with Harry** on YouTube. This repository is a reflection of my learning journey and the projects I build along the way. 🎯
+I'm currently diving deep into **React.js**, guided by the amazing tutorials from **Code with Harry** on YouTube. This repository is a reflection of my learning journey and the projects I build along the way. 🎯
 
 ## 📚 About the Repository
 
-This repository contains various projects, components, and experiments as I explore the power of React and Next.js. From basic components to full-fledged web applications, you'll find it all here.
+This repository contains various projects, components, and experiments as I explore the power of React. From basic components to full-fledged web applications, you'll find it all here.
 
 ## 🛠️ Technologies I'm Working With
 
